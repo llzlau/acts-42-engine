@@ -1,7 +1,12 @@
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
 *$py.class
+
+# Unignore compiled native extensions in acts_core
+!acts_core/*.pyd
+!acts_core/*.so
 
 # Environments
 .venv/
